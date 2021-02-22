@@ -1,6 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
-import { Navbar, Container, Nav, Dropdown, Button, InputGroup } from "react-bootstrap";
+import { Navbar, Container, Nav, Dropdown, Button, Form ,InputGroup } from "react-bootstrap";
 
 import routes from "routes.js";
 
@@ -115,8 +115,11 @@ function Header() {
             onClick={(e) => e.preventDefault()}
           >
             <i className="nc-icon nc-zoom-split"></i>
-            <span className="d-lg-block">Search</span>
-
+            <InputGroup>
+             <Form.Control
+               placeholder="Search"
+              />
+            </InputGroup>
           </Nav.Link>
         </Nav.Item>
             <Nav.Item>

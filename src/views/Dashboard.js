@@ -12,7 +12,7 @@ function Dashboard() {
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
-            opacity:"0.7"
+            opacity:"1"
            }}>
         <h2 style={{color:"white"}}>Introduction to TAP</h2>
         <br></br>
