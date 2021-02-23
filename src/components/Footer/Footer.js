@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <Container fluid className="mt-0 mt-lg-2">
       <div className="footer-default">
-      <div>
+      <div style={{backgroundColor:"rgba(0,0,0,0.7"}}>
         <Row className="d-flex justify-content-center align-items-center">
             <h3 className="title mt-1 xs"><a href ="http://www.nitjsr.ac.in/tap/portfolio/">TAP </a>NIT JAMSHEDPUR</h3>
             </Row>
@@ -29,12 +29,12 @@ const Footer = () => {
                 </Button>
               </Row>
               <Row className="d-flex justify-content-center align-items-center">
-              <h5 className="para">Training and Placement Cell</h5>
+              <h5 className="title">Training and Placement Cell</h5>
               </Row>              
               <Row className="d-flex justify-content-center align-items-center my-2">
               <a href="../assets/docs/CV.docx" download>Standard CV Format</a>
               </Row>
-              <Row className="d-flex justify-content-center align-items-center para">Phone: +91-9430335621</Row>
+              <Row className="d-flex justify-content-center align-items-center title">Phone: +91-9430335621</Row>
               <Row className="d-flex justify-content-center align-items-center copyright">
               &copy; {new Date().getFullYear()}Copyright:NIT JSR | Image Copyright: <a style={{color : "darkgray"}} href="https://in.linkedin.com/company/phocus-nitjamshedpur">Phocus</a>
               </Row> 
